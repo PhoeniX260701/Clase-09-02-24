@@ -1,7 +1,7 @@
 public class Usuario {
 
     String nombre;
-    Videos videosubido;
+    Video Video;
 
     public Usuario () {
     }
@@ -14,16 +14,16 @@ public class Usuario {
     public void setNombre (String nombre) {
         this.nombre= nombre;
     }
-     public Videos getVideosubido () {
-        return videosubido;
+     public Video getVideosubido () {
+        return Video;
     }
-    public void SubirVideo (Videos video) {
-        this. videosubido= video;
+    public void SubirVideo (Video video) {
+        this. Video= video;
     }   
     public void MostrarInfoUsuario() {
         System.out.println("Tu usuario es: " + getNombre());
-        if (videosubido != null) {
-            System.out.println ("Ultimo video subido: " + videosubido.getTitulo());
+        if (Video != null) {
+            System.out.println ("Ultimo video subido: " + Video.getTitulo());
         } else {
             System.out.println ("Aun no ha subido ningun video.");
          }   

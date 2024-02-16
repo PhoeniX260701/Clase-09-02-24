@@ -1,11 +1,11 @@
-public class Videos {
+public class Video {
     int DuracionSegundos;
     String Titulo;
     String URL;
 
-    public Videos () {
+    public Video () {
     }
-    public Videos (int Duracion, String Titulo, String URL) {
+    public Video (int Duracion, String Titulo, String URL) {
         this.DuracionSegundos= Duracion;
         this.Titulo= Titulo;
         this. URL= URL;
